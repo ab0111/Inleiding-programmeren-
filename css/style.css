@@ -1,0 +1,130 @@
+body {
+  background-color: White;
+}
+
+button {
+  background-color: brown;
+  text-align: center;
+  font-size: 10%;
+  padding: 20px 32px;
+  display: inline-block;
+  font-size: 30px;
+  cursor: pointer;
+  border-radius: 15%;
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+}
+
+h4 {
+  text-align: center;
+}
+
+#img {
+  position: center;
+  width: 100%;
+  z-index: -1;
+  position:absolute;
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  opacity: 100;
+
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.info {
+  display: flex;
+  width: 100%;
+  height: 12%;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position:absolute;
+  object-fit: cover;
+  overflow: hidden;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+.resultaatfoto {
+  margin-top: 10em;
+  margin-left: 10em;
+}
+.allDogs {
+  margin-top: 10em;
+}
+.button-container {
+  display: flex;
+  flex-direction: column;
+ 
+  width: 50%;
+  margin-right: 45em;
+  margin-bottom: 1em;
+}
+
+.button-container img {
+  width: 15%;
+  cursor: pointer;
+  margin-top: 4em;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 18em;
+
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: -22em;
+  margin-left: 80em;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#change-dog-name-button {
+  margin-top: 1rem;
+}
+
+.achtergrond {
+  z-index: -1;
+  position:absolute;
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  opacity: 100;
+
+}
+
+
+.keuzes button {
+  display: flex;
+  margin-left: 50em;
+  width: 25%;
+  padding-bottom: 5em;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  border: none;
+  cursor:pointer;
+  overflow: hidden;
+}
+
+
+.keuzes img {
+  width: 30%;
+  
+}
+
