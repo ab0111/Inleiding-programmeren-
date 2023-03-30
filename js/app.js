@@ -2,9 +2,7 @@
 let dogName = 'Binky'
 let health = 50
 
-// De functie changeDogName neemt een nieuwe naam als argument en verandert de 
-// naam van het huisdier in de nieuwe naam als de nieuwe naam niet leeg is. 
-// Het werkt ook de weergave van de naam van het huisdier bij.
+
 
 // Changes the dog name
 const changeDogName = newName => {
@@ -24,9 +22,6 @@ const changeDogName = newName => {
  * @param {new number which is displayed on the screen} newHealth 
  */
 
-// De functie changeHealth neemt een nieuwe gezondheidsscore als argument en werkt de 
-// gezondheidsscore van het huisdier op het scherm bij. Het verandert ook het gezicht 
-// van het huisdier op basis van zijn gezondheidsniveau.
 
 
 const changeHealth = newHealth => {
@@ -59,9 +54,7 @@ const changeHealth = newHealth => {
  * @returns 
  */
 
-// De functies addHealth en loseHealth gebruiken een getal als argument en tellen dat getal op bij of trekken het af van 
-// de huidige gezondheidsscore van het huisdier. Ze roepen ook de functie changeHealth aan om de weergave van de gezondheidsscore 
-// van het huisdier bij te werken.
+
 
 const addHealth = (number) => {
     const newNumber = health + number
@@ -87,9 +80,7 @@ const loseHealth = (number) => {
     changeHealth(newNumber)
 }
 
-// De functie addControls stelt event listeners in voor de knoppen waarmee gebruikers het huisdier 
-// kunnen voeren of ermee kunnen spelen, en ook voor een knop waarmee de gebruiker de naam van het 
-// huisdier kan wijzigen.
+
 
 /**
  * makes the button clickable and adds the function
