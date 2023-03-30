@@ -24,8 +24,10 @@ const changeDogName = newName => {
  * @param {new number which is displayed on the screen} newHealth 
  */
 
-// De functie changeDogName neemt een nieuwe naam als argument en verandert de naam van het huisdier 
-// in de nieuwe naam als de nieuwe naam niet leeg is. Het werkt ook de weergave van de naam van het huisdier bij.
+// De functie changeHealth neemt een nieuwe gezondheidsscore als argument en werkt de 
+// gezondheidsscore van het huisdier op het scherm bij. Het verandert ook het gezicht 
+// van het huisdier op basis van zijn gezondheidsniveau.
+
 
 const changeHealth = newHealth => {
     const healthContainer = document.getElementById('healthscore')
